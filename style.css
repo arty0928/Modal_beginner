@@ -1,3 +1,17 @@
+.open {
+
+    margin: 400px auto auto auto;
+    border-radius: 5px;
+    background-color: #4E8397 ;
+    width: 100px;
+    display:block;
+
+    
+
+}
+
 .container {
+    position:fixed;
     color: rgb(157, 94, 17);
 }
+

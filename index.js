@@ -1,7 +1,14 @@
-const click = document.querySelector('.open');
+const openButton = document.querySelector('.open');
+const container = document.querySelector('.container');
+const closeButton = document.querySelector('.close');
 
-function openModal(){
-    
-}
 
-click.addEventListener('click',openModal);
+openButton.addEventListener('click', () => {
+    container.style.display = 'flex';
+    openButton.style.display = 'none';
+});
+
+closeButton.addEventListener('click', () => {
+    container.style.display = 'none';
+    openButton.style.display = 'block';
+});
