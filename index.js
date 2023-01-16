@@ -6,6 +6,7 @@ const closeButton = document.querySelector('.close');
 openButton.addEventListener('click', () => {
     container.style.display = 'flex';
     openButton.style.display = 'none';
+    
 });
 
 closeButton.addEventListener('click', () => {
